@@ -1,12 +1,10 @@
 import { useForm } from "react-hook-form";
-import { useState } from "react";
 
 export function Guesser() {
   const {
     register,
     handleSubmit,
     watch,
-    formState: { errors },
   } = useForm();
   const bandName = "condemned";
   function onSubmit(data) {

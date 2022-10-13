@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0px;
+}
+/* media query to make font smaller on smaller screens */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+span {
+  color: white;
+  font-size: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  margin: 0px 10px 0px 10px;
+  border: 2px solid #ff0000;
+  padding: 5px;
+}
+
+.displayGuess{
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: auto;
+  height: auto;
+  border: 10px solid #969696;
+}
+
+#logoImage{
+max-height: 50vh;
 }

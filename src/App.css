@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.guesser{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.guesserButton{
+  margin: 10px;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}
+#skip{
+  background-color: #ff0000;
+}
+
+#hint{
+  color: black;
+  background-color: #00ff04;
+}
+
+.guesserField{
+  margin: 10px;
+  padding: 10px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+}

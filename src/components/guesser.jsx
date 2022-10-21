@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import React, { useState } from "react";
+import React from "react";
 
 export function Guesser(props) {
   const {
